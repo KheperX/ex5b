@@ -43,6 +43,7 @@
 
                var t1;
                var u1;
+               var cal = conversion(u,t);
             });
         });
 
@@ -63,6 +64,7 @@
         }
 
                //------------------------------
+        function conversion(u,t) { 
             if(u == "F"){
                     t1 = t * (9/5) + 32;
                     u1 = "Fahrenheit";
@@ -75,7 +77,7 @@
                }
 
                alert("Temperature is "+t1+" in "+u1);
-            
+            }
 
 
     </script>
